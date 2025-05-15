@@ -1,6 +1,7 @@
-FROM tomcat:8.0.20-jre8
 
-MAINTAINER Atanga <ndecalamba@gmail.com>
+FROM tomcat:9.0-jdk17
+
+LABEL maintainer="Atanga <ndecalamba@gmail.com>"
 
 EXPOSE 8080
 
