@@ -18,7 +18,7 @@ spec:
   spec: 
     containers:
     - name: mavenwebappcontainer
-      image: algajallow/apci-webApp
+      image: algajallow/apci-webapp
       imagePullPolicy: Always
       ports:
       - containerPort: 8080
